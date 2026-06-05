@@ -1,0 +1,16 @@
+{
+  "name": "db-live-diff-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^4.0.0",
+    "prisma": "^5.10.0",
+    "@prisma/client": "^5.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
